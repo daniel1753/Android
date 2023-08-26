@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SelectedItemActivity"
+    android:orientation="vertical">
+
+
+<ImageView
+    android:id="@+id/selected_poster"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_weight="5"
+    android:src="@drawable/ic_launcher_foreground"
+    />
+
+    <TextView
+        android:hint="ID text"
+        android:id="@+id/selected_title_txt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+
+        />
+    <TextView
+        android:hint="title"
+        android:id="@+id/selected_overview_txt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+
+        />
+
+
+</LinearLayout>
